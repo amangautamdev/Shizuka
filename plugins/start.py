@@ -149,7 +149,7 @@ async def start_command(client: Client, message: Message):
                     [InlineKeyboardButton("Click here", url=link)],
                     [InlineKeyboardButton('How to use the bot', url=full_tut_url)]
                 ]
-                await message.reply(f"🍁 ▸ ʜᴇʏ {message.from_user.mention}\n🤍 ▸ ɪ ᴀᴍ {bot.get_me().mention}\n\n  ➤ 𝗬𝗼𝘂𝗿 𝗔𝗰𝗰𝗲𝘀𝘀 𝘁𝗼𝗸𝗲𝗻 𝗶𝘀 𝗲𝘅𝗽𝗶𝗿𝗲𝗱, 𝗿𝗲𝗳𝗿𝗲𝘀𝗵 𝘆𝗼𝘂𝗿 𝘁𝗼𝗸𝗲𝗻 𝗮𝗻𝗱 𝘁𝗿𝘆 𝗮𝗴𝗮𝗶𝗻.\n\n➤ 𝗧𝗼𝗸𝗲𝗻 𝗧𝗶𝗺𝗲𝗼𝘂𝘁: {get_exp_time(VERIFY_EXPIRE)}\n\n➤ 𝗧𝗵𝗶𝘀 𝗶𝘀 𝗮 𝗯𝗼𝘁 𝗮𝗰𝗰𝗲𝘀𝘀 𝘁𝗼𝗸𝗲𝗻. 𝗜𝗳 𝘆𝗼𝘂 𝗽𝗮𝘀𝘀 𝟭 𝗮𝗱, 𝘆𝗼𝘂 𝗰𝗮𝗻 𝘂𝘀𝗲 𝘁𝗵𝗲 𝗯𝗼𝘁 𝗳𝗼𝗿 𝟮𝟰 𝗛𝗼𝘂𝗿 𝗮𝗳𝘁𝗲𝗿 𝗽𝗮𝘀𝘀𝗶𝗻𝗴 𝘁𝗵𝗲 𝗮𝗱.", reply_markup=InlineKeyboardMarkup(btn), protect_content=False, quote=True)
+                await message.reply(f"🍁 ▸ ʜᴇʏ {message.from_user.mention}\n🤍 ▸ ɪ ᴀᴍ {Bot.get_me().mention}\n\n  ➤ 𝗬𝗼𝘂𝗿 𝗔𝗰𝗰𝗲𝘀𝘀 𝘁𝗼𝗸𝗲𝗻 𝗶𝘀 𝗲𝘅𝗽𝗶𝗿𝗲𝗱, 𝗿𝗲𝗳𝗿𝗲𝘀𝗵 𝘆𝗼𝘂𝗿 𝘁𝗼𝗸𝗲𝗻 𝗮𝗻𝗱 𝘁𝗿𝘆 𝗮𝗴𝗮𝗶𝗻.\n\n➤ 𝗧𝗼𝗸𝗲𝗻 𝗧𝗶𝗺𝗲𝗼𝘂𝘁: {get_exp_time(VERIFY_EXPIRE)}\n\n➤ 𝗧𝗵𝗶𝘀 𝗶𝘀 𝗮 𝗯𝗼𝘁 𝗮𝗰𝗰𝗲𝘀𝘀 𝘁𝗼𝗸𝗲𝗻. 𝗜𝗳 𝘆𝗼𝘂 𝗽𝗮𝘀𝘀 𝟭 𝗮𝗱, 𝘆𝗼𝘂 𝗰𝗮𝗻 𝘂𝘀𝗲 𝘁𝗵𝗲 𝗯𝗼𝘁 𝗳𝗼𝗿 𝟮𝟰 𝗛𝗼𝘂𝗿 𝗮𝗳𝘁𝗲𝗿 𝗽𝗮𝘀𝘀𝗶𝗻𝗴 𝘁𝗵𝗲 𝗮𝗱.", reply_markup=InlineKeyboardMarkup(btn), protect_content=False, quote=True)
 
 # ... (rest of the code remains unchanged))
 
